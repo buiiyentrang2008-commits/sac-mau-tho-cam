@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sắc Màu Thổ Cẩm Hòa Bình</title>
+    <style>
+        /* CSS GIAO DIỆN */
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background-color: #fcfaf7; color: #333; line-height: 1.6; }
+        header { background: #b22222; color: white; padding: 60px 20px; text-align: center; border-bottom: 5px solid #f1c40f; }
+        header h1 { margin: 0; font-size: 2.8em; text-transform: uppercase; letter-spacing: 2px; }
+        nav { background: #2c3e50; position: sticky; top: 0; z-index: 1000; text-align: center; padding: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+        nav a { color: white; text-decoration: none; margin: 0 12px; font-weight: bold; transition: 0.3s; font-size: 0.9em; }
+        nav a:hover { color: #f1c40f; }
+        .container { width: 90%; max-width: 1100px; margin: auto; padding: 20px; }
+
+        /* Khối giới thiệu chung */
+        .intro-box { display: flex; gap: 20px; margin: 40px 0; flex-wrap: wrap; }
+        .box { flex: 1; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 5px solid #b22222; }
+        .box h3 { color: #b22222; margin-top: 0; }
+
+        /* Khối dân tộc */
+        .dan-toc-item { display: flex; align-items: center; gap: 40px; background: white; padding: 35px; margin-top: 40px; border-radius: 20px; box-shadow: 0 5px 25px rgba(0,0,0,0.06); }
+        .dan-toc-item.reverse { flex-direction: row-reverse; }
+        .info-text { flex: 1.5; }
+        .info-text h2 { color: #b22222; font-size: 2.2em; border-bottom: 3px solid #f1c40f; display: inline-block; margin-bottom: 20px; }
+        .image-box { flex: 1; }
+        .image-box img { width: auto; border-radius: 12px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: 0.3s; display: flex}
+        .image-box img:hover { transform: scale(1.02); }
+
+        /* Kết bài */
+        .banner-final { background: #2c3e50; color: white; padding: 50px; text-align: center; border-radius: 20px; margin-top: 60px; }
+        .banner-final h2 { color: #f1c40f; font-size: 2em; }
+        footer { background: #1a252f; color: #888; text-align: center; padding: 30px; margin-top: 40px; }
+
+        @media (max-width: 850px) { .dan-toc-item, .dan-toc-item.reverse, .intro-box { flex-direction: column; text-align: center; } }
+		
+		img { width: 100%;
+		      height: 400px;
+			  object-fit: cover;
+			  border: 1px:
+			  }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sắc Màu Thổ Cẩm</h1>
+        <p>Khám phá vẻ đẹp và ý nghĩa trang phục truyền thống các dân tộc Hòa Bình</p>
+    </header>
+
+    <nav>
+        <a href="#intro">TỔNG QUAN</a>
+        <a href="#muong">MƯỜNG</a>
+        <a href="#dao">DAO</a>
+        <a href="#thai">THÁI</a>
+        <a href="#tay">TÀY</a>
+        <a href="#mong">MÔNG</a>
+        <a href="#kinh">KINH</a>
+    </nav>
+
+    <div class="container">
+        
+        <div class="intro-box" id="intro">
+            <div class="box">
+                <h3>Chất Liệu Truyền Thống</h3>
+                <p>Vải bông mềm mại dệt trên khung cửi, vải lanh bền chắc phù hợp vùng núi cao và kỹ thuật nhuộm chàm xanh đen sâu lắng từ thiên nhiên.</p>
+            </div>
+            <div class="box" style="border-top-color: #27ae60;">
+                <h3>Họa Tiết & Ý Nghĩa</h3>
+                <p>Hoa văn hình thoi, zigzag tượng trưng cho cân bằng âm dương. Họa tiết hoa lá, mặt trời phản ánh mối quan hệ mật thiết với núi rừng.</p>
+            </div>
+        </div>
+
+        <section id="muong" class="dan-toc-item">
+            <div class="info-text">
+                <h2>1. Dân tộc Mường</h2>
+                <p>- Phụ nữ mặc áo ngắn (áo pắn) phối váy đen dài. Điểm nhấn là thắt lưng xanh và khăn trắng đội đầu. Nam giới mặc áo chàm/đen đơn giản và quần dài.</p>
+                
+				<p>- Trang phục phụ nữ Mường là sự kết hợp tinh tế giữa áo pắn (áo ngắn) và váy dài kín đáo. Điểm nhấn đặc trưng nhất là đầu váy, nơi tập trung các đồ án hoa văn dệt tay tỉ mỉ với bố cục chặt chẽ. Khăn đội đầu màu trắng và thắt lưng xanh tạo nên một cấu trúc màu sắc hài hòa, biểu trưng cho vẻ đẹp thanh thoát và tôn quý của phụ nữ xứ Mường.</p>
+            </div>
+            <div class="image-box"><img src="muong.jpg" alt="Trang phục Mường"></div>
+        </section>
+
+        <section id="dao" class="dan-toc-item reverse">
+            <div class="info-text">
+                <h2>2. Dân tộc Dao</h2>
+                <p>- Màu chủ đạo đen – chàm – đỏ. Họa tiết thêu tay tinh xảo, kết hợp phụ kiện bông đỏ rực rỡ và đồ bạc cầu kỳ, đặc biệt trong lễ Cấp Sắc và ngày Tết.</p>
+				<p>- Hệ thống trang phục của người Dao tại Hòa Bình thể hiện kỹ thuật thêu tay đa dạng và phức tạp bậc nhất. Sắc chàm đen chủ đạo làm nền tảng cho sự nổi bật của các chùm bông len màu đỏ rực rỡ và hệ thống trang sức bạc thủ công. Đây không chỉ là trang phục mà còn là minh chứng cho trình độ tư duy thẩm mỹ và kỹ năng thủ công truyền thống thượng thừa.</p>
+            </div>
+            <div class="image-box"><img src="dao.jpg" alt="Trang phục Dao"></div>
+        </section>
+
+        <section id="thai" class="dan-toc-item">
+            <div class="info-text">
+                <h2>3. Dân tộc Thái</h2>
+                <p>- Nổi tiếng với Áo Cóm bó sát, hàng khuy bạc và váy dài đen. Khăn Piêu đội đầu thêu hoa văn sặc sỡ là biểu tượng cho sự khéo léo của người phụ nữ Thái.</p>
+				<p>- Áo Cóm là minh chứng cho sự tinh tế trong kỹ thuật tạo hình, ôm sát cơ thể giúp tôn vinh đường nét tự nhiên nhưng vẫn giữ được sự kín đáo. Hàng khuy bạc hình bướm, hình nhện đại diện cho thế giới tâm linh phong phú. Khăn Piêu – một tác phẩm thêu thùa độc lập – đóng vai trò là biểu tượng văn hóa nhận diện cốt lõi của cộng đồng dân cư vùng thung lũng.</p>
+            </div>
+            <div class="image-box"><img src="thai.jpg" alt="Trang phục Thái"></div>
+        </section>
+
+        <section id="tay" class="dan-toc-item reverse">
+            <div class="info-text">
+                <h2>4. Dân tộc Tày</h2>
+                <p>- Mang vẻ đẹp giản dị, thanh lịch với sắc chàm indigo sâu lắng. Áo dài năm thân cắt may suôn thẳng, trang nhã, phản ánh tính cách hiền hòa, điềm đạm.</p>
+				<p>- Ngôn ngữ thiết kế trang phục Tày hướng đến sự tối giản và trang nhã. Sử dụng cấu trúc áo dài năm thân với đường cắt thẳng đứng, trang phục tập trung vào độ rủ của chất liệu vải chàm tự nhiên. Sự tiết chế trong hoa văn thêu thùa tạo nên một chỉnh thể thẩm mỹ trầm mặc, phản ánh tính cách điềm đạm và chiều sâu văn hóa của tộc người.</p>
+            </div>
+            <div class="image-box"><img src="tay.jpg" alt="Trang phục Tày"></div>
+        </section>
+
+        <section id="mong" class="dan-toc-item">
+            <div class="info-text">
+                <h2>5. Dân tộc Mông</h2>
+                <p>- Rực rỡ với váy xòe xếp nếp và kỹ thuật vẽ sáp ong tinh xảo. Trang sức bạc phong phú thể hiện sự giàu có và bản sắc tâm linh mạnh mẽ của dân tộc.</p>
+				<p>- Váy xếp nếp của người Mông là một kỳ công về kỹ thuật tạo hình đa tầng. Quy trình vẽ sáp ong (batik) kết hợp nhuộm chàm và thêu đắp vải màu tạo nên cấu trúc họa tiết đa sắc diện. Hệ thống trang sức bạc có trọng lượng lớn không chỉ đóng vai trò trang trí mà còn mang giá trị tín ngưỡng hộ mệnh và khẳng định vị thế kinh tế của gia tộc.</p>
+            </div>
+            <div class="image-box"><img src="mong.jpg" alt="Trang phục Mông"></div>
+        </section>
+
+        <section id="kinh" class="dan-toc-item reverse">
+            <div class="info-text">
+                <h2>6. Dân tộc Kinh</h2>
+                <p>- Biểu tượng là tà Áo Dài duyên dáng, ôm sát thân và xẻ tà mềm mại. Chất liệu lụa gấm sang trọng thể hiện nét đẹp thanh lịch của phụ nữ Việt Nam.</p>
+				<p>- Áo Dài là một bước tiến trong tiến trình hiện đại hóa trang phục truyền thống. Với cấu trúc hai tà trước sau linh hoạt trên nền chất liệu tơ lụa có độ bóng và độ rủ cao, Áo Dài kết hợp hài hòa giữa các giá trị thẩm mỹ phương Đông và tư duy hình thể phương Tây, trở thành biểu tượng quốc phục có sức sống bền vững.</p>
+            </div>
+            <div class="image-box"><img src="kinh.jpg" alt="Trang phục Kinh"></div>
+        </section>
+
+        <div class="banner-final">
+            <h2>Vai Trò Trong Lễ Hội & Đời Sống</h2>
+            <p>Trang phục là di sản văn hóa phi vật thể quý giá, thể hiện sự tôn kính tổ tiên và niềm tự hào dân tộc trong mọi lễ hội nghi lễ vùng đất Hòa Bình.</p>
+            <p><strong>DI SẢN CẦN ĐƯỢC BẢO TỒN VÀ PHÁT HUY</strong></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>@2026 - Trang web Giới thiệu Văn hóa các Dân tộc Hòa Bình</p>
+        <p>Thực hiện trên Notepad với tất cả niềm tự hào dân tộc</p>
+    </footer>
+
+</body>
+</html>
